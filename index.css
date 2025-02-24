@@ -5,22 +5,11 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
-/* =================
-    Layout
-   ================= */
-
 main {
-    /* 
-Challenge:
-    1. Set up the "main" element as a grid container. 
-    2. Specify a template of one column with 1fr width.
-    3. Place 1em of space between each grid item. 
-*/
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
 }
-
-/* =================
-    Article Card 
-   ================= */
 
 a:hover,
 a:focus {
@@ -44,11 +33,6 @@ article {
     padding: 1em;
     width: 100%;
 }
-
-
-/* =================
-    Typography 
-   ================= */
 
 h1 {
     color: #0F0F0F;
@@ -83,10 +67,6 @@ p {
     font-size: .85rem;
     color: #7c7c7c;
 }
-
-/* =================
-    Images 
-   ================= */
 
 img {
     width: 100%;
