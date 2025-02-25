@@ -31,6 +31,34 @@ main {
     }
 }
 
+
+@media (min-width: 870px) {
+
+    main {
+        grid-template-columns: repeat(12, 1fr)
+    }
+
+    .technology {
+        grid-column: 1 / 7;
+    }
+
+    .environment {
+        grid-column: 7 / 10;
+    }
+
+    .nasa {
+        grid-column: 10 / -1;
+    }
+
+    .physics {
+        grid-column: 1 / 4;
+    }
+
+    .health {
+        grid-column: 4 / 10;
+    }
+}
+
 a:hover,
 a:focus {
     filter: brightness(0.9);
