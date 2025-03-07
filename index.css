@@ -5,11 +5,38 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
-main {
-    margin: 1em;
+
+body {
     display: grid;
-    row-gap: 1em;
+    grid-template-columns: 1em, 1fr, 1em;
+    grid-template-areas: 
+    "... head ..."
+    "... main ..."
+    "... foot ..."
+    "... ... ...";
+    row-gap: 1em 0;
+}
+
+.site-header {
+    grid-area: head;
+}
+
+footer {
+    grid-area: foot;
+}
+
+
+main {
+    grid-area: main;
+    display: grid;
+    gap: 1em;
     grid-template-columns: 1fr;
+    grid-template-areas:
+        "tech"
+        "envi"
+        "nasa"
+        "phys"
+        "heal";
 }
 
 
