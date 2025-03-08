@@ -1,5 +1,6 @@
 html,
 body {
+    background-color: #cac4c4;
     margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
@@ -145,6 +146,6 @@ p {
 
 img {
     width: 100%;
-    border-top-left-radius: .2em;
-    border-top-right-radius: .2em;
+    border-top-left-radius: .4em;
+    border-top-right-radius: .4em;
 }
